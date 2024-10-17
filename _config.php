@@ -1,20 +1,20 @@
 <?php 
-$conn = mysqli_connect("localhost", 'root' , '', "anime") or die("Connection fail");
+$conn = mysqli_connect("sql309.infinityfree.com", 'if0_37022459' , 'pFPXhLW29Au', "if0_37022459_anikatsu") or die("Connection fail");
 
 
 $websiteTitle = "Zoro";
 $websiteUrl = "//{$_SERVER['SERVER_NAME']}";
 $websiteLogo = $websiteUrl . "/files/images/logo_zoro.png";
-$contactEmail = "@gmail.com";
+$contactEmail = "d4sh.here@gmail.com";
 
 $version = "0.1";
 
-$discord = "https://dsc.gg/kirixen";
-$github = "https://github.com/kirixen";
-$twitter = "https://x.com/KiriX3n";
+$discord = "https://discord.gg/leafmc";
+$github = "https://github.com/1nOnlyDash";
+$twitter = "https://x.com/1nOnlyDash";
  
-$disqus = "https://.disqus.com/embed.js";
-$api = "https://.vercel.app"; 
+$disqus = "https://zoroxdash.disqus.com/embed.js";
+$api = "https://gogo-api-xi.vercel.app"; 
 
 $banner = $websiteUrl . "/files/images/banner.png";
 ?>
