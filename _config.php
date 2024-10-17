@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect("sql309.infinityfree.com", 'if0_37022459' , 'pFPXhLW29Au', "if0_37022459_anikatsu") or die("Connection fail");
+$conn = mysqli_connect("", '' , '', "") or die("Connection fail");
 
 
 $websiteTitle = "Zoro";
